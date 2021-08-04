@@ -76,6 +76,9 @@
         </nav>
 
         <main class="py-4">
+            <div class="float-left">
+                @include('layouts.sidebar')
+            </div>
             @yield('content')
         </main>
     </div>
