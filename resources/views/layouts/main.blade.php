@@ -12,7 +12,7 @@
         <script src="{{ asset('js/sb-all.min.js')}}" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark" style="background-color: #003780;">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="{{ url('/') }}"> {{ config('app.name', 'RMS') }}</a>
             <!-- Sidebar Toggle-->
@@ -46,7 +46,7 @@
         </nav>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
-                <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
+                <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion" style="background-color:#E6F1FF;">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
@@ -138,7 +138,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                            <div class="text-muted">Copyright &copy; RMS 2021</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
