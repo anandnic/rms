@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-
+<h2 class="mt-4">Dashboard</h2>
     <div class="row ">
         <div class="col-md-12">
             <div class="card">
