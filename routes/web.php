@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ShopUserController;
+use App\Http\Controllers\RentUserController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -11,4 +11,4 @@ use App\Http\Controllers\ShopUserController;
 Auth::routes();
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::resource('shopuser',ShopUserController::class);
+Route::resource('rentuser',RentUserController::class);

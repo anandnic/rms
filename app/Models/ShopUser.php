@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class ShopUser extends Model
 {
     use HasFactory;
+    protected $fillable = ['fullname','address','mobile','email','shopname'];
+    public $timestamps=false;
 }

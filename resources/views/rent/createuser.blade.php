@@ -11,7 +11,7 @@
                 <div class="card-body">
                    <!--FORM  -->
                    <div class="container">
-                   <form method="POST" action="/shopuser">
+                   <form method="POST" action="/rentuser">
                    @csrf
                         <div class="form-group mb-3 col-sm-10">
                             <label for="fullname">Full Name</label>
@@ -29,6 +29,17 @@
                             <label for="email">Email Address</label>
                             <input type="email" class="form-control" name="email" id="email" placeholder="email">
                         </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="inputGroupSelect01">Type of User</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01" name="usertype">
+                                <option selected>Choose...</option>
+                                <option value="shop">Shop</option>
+                                <option value="house">Rent House</option>
+                                
+                            </select>
+                            </div>
                         <div class="form-group mb-3 col-sm-10">
                             <label for="shopname">Shop Name</label>
                             <input type="text" class="form-control" name="shopname" id="shopname" placeholder="shopname">
