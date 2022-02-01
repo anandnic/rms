@@ -19,6 +19,7 @@
       <th scope="col">Type</th>
       <th scope="col">Shop</th>
       <th scope="col">Active</th>
+      <th scope="col">Edit</th>
       
     </tr>
   </thead>
@@ -33,6 +34,7 @@
       <td>{{$rentuser->usertype}}</td>
       <td>{{$rentuser->shopname}}</td>
       <td>{{($rentuser->active) ? 'active':'inactive'}}</td>
+      <td><a class="btn btn-success btn-sm" href="{{ url('rentuser/'.$rentuser->id.'/edit') }}">Edit</a></td>
     </tr>
     @endforeach
   </tbody>

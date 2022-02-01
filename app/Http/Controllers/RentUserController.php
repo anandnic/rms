@@ -59,6 +59,8 @@ class RentUserController extends Controller
     public function show(RentUser $rentUser)
     {
         //
+       
+        
     }
 
     /**
@@ -67,9 +69,11 @@ class RentUserController extends Controller
      * @param  \App\Models\RentUser  $rentUser
      * @return \Illuminate\Http\Response
      */
-    public function edit(RentUser $rentUser)
+    public function edit(RentUser $rentUser,$id)
     {
         //
+        $a=RentUser::find($id);
+        
     }
 
     /**

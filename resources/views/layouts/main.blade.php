@@ -62,8 +62,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="">Add Shop Tenant</a>
-                                    <a class="nav-link" href="">Shop Tenant Details</a>
+                                    <a class="nav-link" href="/rentuser/create">Add Shop Tenant</a>
+                                    <a class="nav-link" href="/rentuser">Shop Tenant Details</a>
                                     <a class="nav-link" href="">Activate/Deactivate</a>
                                 </nav>
                             </div>
